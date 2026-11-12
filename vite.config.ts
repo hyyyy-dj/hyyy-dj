@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   const isDev = command === 'serve'
   
   return {
-    base:'./',
+    base:'/hyyyy-dj/',
     plugins: [
       react({
         // Add babel plugin for react-dev-inspector in development
