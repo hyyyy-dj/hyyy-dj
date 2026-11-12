@@ -2,10 +2,7 @@ import { Groq } from 'groq-sdk';
 import { getTimeBasedGreeting, formatResponse, getFallbackCelebrationMessage } from './helpers';
 
 // Initialize Groq client
-const groq = new Groq({
-  apiKey: import.meta.env.VITE_AI_API_KEY,
-  dangerouslyAllowBrowser: true // Allow client-side usage (be careful in production)
-});
+const groq = null
 
 // Base types for AI responses
 export interface AIMessage {
